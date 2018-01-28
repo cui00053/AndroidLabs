@@ -8,5 +8,9 @@
     <string name="RB">RadioButton</string>
     <string name="CB">CheckBox</string>
     <string name="TB">What does this do?</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Finish Activity</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
