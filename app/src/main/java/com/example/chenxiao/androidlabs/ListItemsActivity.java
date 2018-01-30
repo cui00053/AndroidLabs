@@ -47,7 +47,7 @@ public class ListItemsActivity extends Activity {
                 CharSequence text;// "Switch is Off"
                 int duration;
                 if (isChecked) {
-                    text = "Switch is On";
+                    text ="Switch is Off";
                     duration = Toast.LENGTH_SHORT;
                 } else {
                     text = "Switch is Off";
@@ -73,7 +73,7 @@ public class ListItemsActivity extends Activity {
                             public void onClick(DialogInterface dialog, int id) {
                                 // User clicked OK button
                                 Intent resultIntent = new Intent(  );
-                                resultIntent.putExtra("Response", "Here is my response");
+                                resultIntent.putExtra("Response", getString(R.string.response));
                                 setResult(Activity.RESULT_OK, resultIntent);
                                 finish();
                             }

@@ -33,7 +33,8 @@ public class StartActivity extends Activity {
         }
         if(responseCode == Activity.RESULT_OK){
            String messagePassed = data.getStringExtra("Response");
-           Toast.makeText(this, "ListItemsActivity passe: " + messagePassed, Toast.LENGTH_LONG ).show();
+           String message = getString(R.string.reply)+messagePassed;
+           Toast.makeText(this, message , Toast.LENGTH_SHORT ).show();
 
         }
     }
