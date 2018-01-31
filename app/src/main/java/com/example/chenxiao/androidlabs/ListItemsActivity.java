@@ -47,10 +47,10 @@ public class ListItemsActivity extends Activity {
                 CharSequence text;// "Switch is Off"
                 int duration;
                 if (isChecked) {
-                    text ="Switch is Off";
+                    text =getString(R.string.switchOn);
                     duration = Toast.LENGTH_SHORT;
                 } else {
-                    text = "Switch is Off";
+                    text = getString(R.string.switchOff);
                     duration = Toast.LENGTH_LONG; //= Toast.LENGTH_LONG if Off
                 }
 

@@ -5,6 +5,7 @@
     <string name="login">login</string>
     <string name="loginName">login name</string>
     <string name="password">password</string>
+    <string name="loginButton">Login</string>
     <string name="RB">RadioButton</string>
     <string name="CB">CheckBox</string>
     <string name="TB">What does this do?</string>
@@ -12,5 +13,9 @@
     <string name="dialog_title">Finish Activity</string>
     <string name="ok">Yes</string>
     <string name="cancel">Cancel</string>
+    <string name="reply">ListItemsActivity passe: </string>
+    <string name="response">My information to share</string>
+    <string name="switchOn">Switch is On</string>
+    <string name="switchOff">Switch is Off</string>
 
 </resources>
