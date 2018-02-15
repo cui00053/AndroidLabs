@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -31,7 +32,7 @@ public class ChatWindow extends Activity {
         listView = (ListView) findViewById(R.id.listView);
 
         ChatAdapter messageAdapter = new ChatAdapter(this);
-        listView.setAdapter(messageAdapter);
+        listView.setAdapter((ListAdapter)messageAdapter);
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
