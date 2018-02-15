@@ -24,9 +24,22 @@ public class StartActivity extends Activity {
             }
         });
 
+        Button startChatButton = (Button)findViewById(R.id.startChatButton);
+        startChatButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                //startActivity(intent);
+                startActivityForResult(intent, 10);
+                onActivityResult(10,10, intent);
+            }
+        });
+
         Log.i(ACTIVITY_NAME,"In onCreate()");
     }
     @Override
+
     protected void onActivityResult(int requestCode,int responseCode, Intent data){
         if(requestCode == 50){
             Log.i(ACTIVITY_NAME,"Returned to StartActivity.onActivityResult");

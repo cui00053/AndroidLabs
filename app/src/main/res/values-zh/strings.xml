@@ -18,6 +18,8 @@
     <string name="response">我分享的信息</string>
     <string name="switchOn">已打开</string>
     <string name="switchOff">已关闭</string>
+    <string name="startChatButton">开始会话</string>
+    <string name="sendButton">发送</string>
 
 
 </resources>

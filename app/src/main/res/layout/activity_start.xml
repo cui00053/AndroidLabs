@@ -32,4 +32,12 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/startChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startChatButton"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="346dp" />
+
 </android.support.constraint.ConstraintLayout>
