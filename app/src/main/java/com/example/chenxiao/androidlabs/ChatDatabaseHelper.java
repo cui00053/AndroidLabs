@@ -41,13 +41,5 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
         Log.i("ChatDatabaseHelper","Calling onUpgrade, oldVersion= " + oldVersion + "newVersion=" +newVersion);
     }
 
-    //public void openDatabase(){
-    //    database = this.getReadableDatabase();
-  //  }
 
-    public void insert(String message){
-        ContentValues values = new ContentValues();
-        values.put(KEY_MESSAGE,message);
-        database.insert(TABLE_NAME,null,values);
-    }
 }
