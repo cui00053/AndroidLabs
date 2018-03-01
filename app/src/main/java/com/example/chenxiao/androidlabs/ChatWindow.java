@@ -55,7 +55,7 @@ public class ChatWindow extends Activity {
             }
         }
         for(int i = 0; i < cursor.getColumnCount(); i++){
-            Log.i("ChatWindow","The "+i+" row is "+cursor.getColumnName(i));
+            Log.i("ChatWindow","The "+i+" column is "+cursor.getColumnName(i));
         }
 
 
