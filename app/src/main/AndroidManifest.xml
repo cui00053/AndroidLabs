@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.chenxiao.androidlabs">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <!-- <uses-feature android:name="android.hardware.camera" android:required="true" /> -->
     <!-- <uses-permission android:name="android.permission.CAMERA"></uses-permission> -->
     <application
@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ListItemsActivity" />
         <activity android:name=".ChatWindow" />
+        <activity
+            android:name=".WeatherForecast"/>
     </application>
 
 </manifest>

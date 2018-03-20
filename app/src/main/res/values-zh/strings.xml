@@ -20,6 +20,11 @@
     <string name="switchOff">已关闭</string>
     <string name="startChatButton">开始会话</string>
     <string name="sendButton">发送</string>
+    <string name="weatherButton">天气</string>
+    <string name="currentTempLabel">当前气温</string>
+    <string name="maxTempLabel">最高气温</string>
+    <string name="minTempLabel">最低气温</string>
+    <string name="windLabel">风速</string>
 
 
 </resources>

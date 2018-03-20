@@ -19,5 +19,11 @@
     <string name="switchOff">Switch is Off</string>
     <string name="startChatButton">Start Chat</string>
     <string name="sendButton">Send</string>
+    <string name="weatherButton">Weather</string>
+    <string name="currentTempLabel">Current Temperature</string>
+    <string name="maxTempLabel">Max Temperature</string>
+    <string name="minTempLabel">Min Temperature</string>
+    <string name="windLabel">Wind Speed</string>
+
 
 </resources>
