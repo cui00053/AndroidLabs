@@ -24,6 +24,10 @@
     <string name="maxTempLabel">Max Temperature</string>
     <string name="minTempLabel">Min Temperature</string>
     <string name="windLabel">Wind Speed</string>
+    <string name="deleteMessage">Delete this message</string>
+    <string name="messageDetails">Message Here</string>
+    <string name="messageID">ID = </string>
+
 
 
 </resources>
