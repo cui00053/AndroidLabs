@@ -16,7 +16,6 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
     public static final String KEY_ID = "ID";
     public static final String KEY_MESSAGE = "Message";
     public static final String TABLE_NAME = "myTable";
-    private SQLiteDatabase database;
 
     private static final String DATABASE_CREATE = "create table "
             + TABLE_NAME + "( " + KEY_ID

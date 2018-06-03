@@ -25,6 +25,18 @@
     <string name="maxTempLabel">最高气温</string>
     <string name="minTempLabel">最低气温</string>
     <string name="windLabel">风速</string>
+    <string name="deleteMessage">删除这条信息</string>
+    <string name="messageDetails">信息显示在这</string>
+    <string name="messageID">编号 = </string>
+    <string name="title_activity_test_toolbar">测试工具栏</string>
+    <string name="toolbarDialogTitle">退出当前页面？</string>
+    <string name="hint">更新第一个按钮的提示信息</string>
+    <string name="dialogPositive">确认</string>
+    <string name="dialogNegative">取消</string>
+    <string name="toolBarButton">测试工具栏</string>
+    <string name="aboutMenu">关于</string>
+    <string name="aboutInformation">版本 1.0, 由崔晨晓完成</string>
+    <string name="snackbarMessage">你选择了第一个按钮。</string>
 
 
 </resources>

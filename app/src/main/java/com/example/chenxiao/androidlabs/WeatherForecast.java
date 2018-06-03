@@ -104,7 +104,7 @@ public class WeatherForecast extends Activity {
                         min = parser.getAttributeValue(null,"min");
                         publishProgress(40);
                         android.os.SystemClock.sleep(500);
-                        max = parser.getAttributeValue(null,"value");
+                        max = parser.getAttributeValue(null,"max");
                         publishProgress(60);
                         android.os.SystemClock.sleep(500);
                     }
@@ -186,14 +186,6 @@ public class WeatherForecast extends Activity {
                 if (connection != null) {
                     connection.disconnect();
                 }
-            }
-        }
-        public static Bitmap getImage(String urlString) {
-            try {
-                URL url = new URL(urlString);
-                return getImage(url);
-            } catch (MalformedURLException e) {
-                return null;
             }
         }
 

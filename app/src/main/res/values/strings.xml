@@ -27,7 +27,15 @@
     <string name="deleteMessage">Delete this message</string>
     <string name="messageDetails">Message Here</string>
     <string name="messageID">ID = </string>
-
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="toolbarDialogTitle">Do you want to go back?</string>
+    <string name="hint">New alert message for menu one</string>
+    <string name="dialogPositive">OK</string>
+    <string name="dialogNegative">Cancel</string>
+    <string name="toolBarButton">TEST TOOLBAR</string>
+    <string name="aboutMenu">About</string>
+    <string name="aboutInformation">Version 1.0, by Chenxiao Cui</string>
+    <string name="snackbarMessage">You selected item 1.</string>
 
 
 </resources>
